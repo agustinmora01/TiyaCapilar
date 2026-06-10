@@ -1169,8 +1169,8 @@
     .feature-item { flex: 0 0 auto; border-right: 1px solid rgba(201,162,39,0.2); border-bottom: none; width: auto; padding: 12px 20px; }
 
     /* Products — scroll horizontal como desktop */
-    .products-scroll { overflow-x: auto; padding: 0 16px 12px; -webkit-overflow-scrolling: touch; }
-    .products-grid { display: flex; width: max-content; gap: 16px; cursor: grab; }
+    .products-scroll { overflow-x: auto; padding: 0 16px 12px; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+    .products-grid { display: flex; width: max-content; gap: 16px; cursor: grab; padding-right: 16px; }
     .products-grid .product-card { flex: 0 0 220px; }
     .product-img-wrap { height: 170px; }
     .product-body { padding: 16px; }
